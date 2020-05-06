@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "XCWeexNatCamera"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
 
   s.summary      = "Nat.js weex plugin: nat-camera"
   s.description  = <<-DESC
