@@ -7,7 +7,7 @@
 
 #import "WeexNatCamera.h"
 #import <WeexPluginLoader/WeexPluginLoader.h>
-#import <NatCamera/NatCamera.h>
+#import <XCNatCamera/NatCamera.h>
 
 #define KOriginalPhotoImagePath   \
 [[NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) objectAtIndex:0] stringByAppendingPathComponent:@"OriginalPhotoImages"]

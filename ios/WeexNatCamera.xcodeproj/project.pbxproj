@@ -134,6 +134,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = C45843DA1E84EF5B00D88C0B;
@@ -182,17 +183,44 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-WeexNatCamera/Pods-WeexNatCamera-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-WeexNatCamera/Pods-WeexNatCamera-resources.sh",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/ImageError@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLarge@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/PlayButtonOverlayLargeTap@3x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@2x.png",
+				"${PODS_ROOT}/NatImage/ios/Classes/MWPhotoBrowser/Pod/Assets/VideoOverlay@3x.png",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
 				"${PODS_ROOT}/WeexSDK/WeexSDK.framework/native-bundle-main.js",
 				"${PODS_ROOT}/WeexSDK/WeexSDK.framework/wx_load_error@3x.png",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ImageError@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLarge@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/PlayButtonOverlayLargeTap@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@2x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/VideoOverlay@3x.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/native-bundle-main.js",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/wx_load_error@3x.png",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeexNatCamera/Pods-WeexNatCamera-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WeexNatCamera/Pods-WeexNatCamera-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

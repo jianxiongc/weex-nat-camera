@@ -5,7 +5,7 @@ platform :ios, '7.0'
 def common
 	pod 'WeexSDK'
 	pod 'WeexPluginLoader'
-	pod 'NatCamera'
+	pod 'XCNatCamera', '~> 0.0.4'
 end
 
 target 'WeexNatCamera' do
