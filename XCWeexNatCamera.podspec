@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "XCWeexNatCamera"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
 
   s.summary      = "Nat.js weex plugin: nat-camera"
   s.description  = <<-DESC
@@ -21,6 +21,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.dependency "WeexPluginLoader"
   s.dependency "WeexSDK"
-  s.dependency "NatCamera"
+  s.dependency "XCNatCamera"
   s.dependency "NatImage"
 end
